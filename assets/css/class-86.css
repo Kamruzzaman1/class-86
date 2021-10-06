@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300;400;500;600&display=swap');
+h1,h2, h3, h4, h5, h6{
+	font-weight:;
+	margin:0 0 15px;
+}
+.alignleft{
+	float: left;
+	margin-right:15px;
+}
+.alignright{
+	float:right;
+	margin-left: 0 auto 15px;
+}
+.aligncenter{
+	display:block;
+	height:auto;
+}
+body{
+	font-family: 'Noto Sans Display', sans-serif;
+	font-weight:300;
+}
+a{
+
+}
+a:hover{
+	text-decoration:none;
+}
+a:focus{
+
+}
+.interior-bg-1{background-image: url(../img/interior-1.jpg);}
+.interior-bg-2{background-image: url(../img/interior.jpg);}
+
+.interior-inner {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.interior-design {
+    height: 500px;
+    position: relative;
+    margin-left: -60px;
+    z-index: 1;
+    margin-bottom: 80px;
+}
+
+.interior-design:after {
+    background-color: #F4F4F4;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: -25px;
+    top: 25px;
+    z-index: -1;
+}
+
+.interior-design:before {
+    height: 80px;
+    width: 2px;
+    position: absolute;
+    background-color: #F3B159;
+    content: "";
+    bottom: -55px;
+    right: 30%;
+}
+
+.spacial-text {
+    position: relative;
+    line-height: 1.8;
+    color: #999;
+}
+
+.spacial-text h2.spacial-title {
+	margin-left: -230px;
+	font-size: 65px;
+	font-weight: 500;
+	background-color: #fff;
+	padding: 40px 50px;
+	margin-top: 75px;
+	margin-bottom: -7px;
+	z-index: 2;
+	color: #222;
+	position: relative;
+}
+
+.right-side .interior-design {
+    margin-left: 0;
+    margin-right: -60px;
+    z-index: 2;
+}
+
+.right-side .spacial-text h2.spacial-title {
+    margin-left: 0;
+    margin-right: -230px;
+    position: relative;
+    z-index: 3;
+}
+
+.right-side .interior-design:before {
+    right: auto;
+    left: 30%;
+}
+
+.right-side .interior-design:after {
+    left: auto;
+    right: -25px;
+}
+.spacial-text p, .more {
+    margin-left: 50px;
+}
+a.more {
+    font-weight: 600;
+    color: #222;
+}
+a.more:before {
+    height: 2px;
+    width: 100px;
+    background-color: #F5BD00;
+    content: "";
+    position: absolute;
+    bottom: 0;
+}
